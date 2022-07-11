@@ -59,6 +59,7 @@ const timer = {
 function onStartBtnHandle() {
   timer.start();
   timerStartButtonRef.setAttribute('disabled', 'true');
+  flatpickrImportRef.setAttribute('disabled', 'true');
 }
 
 function convertMs(ms) {
